@@ -10,11 +10,21 @@ font-size: 25px;
 color: #A9D6E5;
 } 
 
-.header-menu-items nav-links:hover {
+/* .header-menu-items nav-links:hover {
 font-size: 200px;
-}
+} */
 
-.header-section {
+/* .header-section {
 background: #2C7DA0;
 border: 1px solid rgb(78, 69, 69);
-} 
+}  */
+li {
+    color: red;
+}
+li:hover{
+    font-size: 35px;
+}
+.header-section {
+    display: row;
+    position: absolute;
+}
