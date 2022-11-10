@@ -1,0 +1,21 @@
+/* aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+} */
+* {
+margin:0;
+}
+.header-menu-items{
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+font-size: 25px;
+
+}
+.header-section {
+background: rgb(114, 227, 214);
+border: 5px solid rgb(78, 69, 69);}
