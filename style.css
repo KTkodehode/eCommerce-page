@@ -1,21 +1,20 @@
-/* aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-} */
-* {
+body {
 margin:0;
+background: #61A5C2;
 }
 .header-menu-items{
 display: flex;
 justify-content: space-around;
 list-style-type: none;
 font-size: 25px;
+color: #A9D6E5;
+} 
 
+.header-menu-items nav-links:hover {
+font-size: 200px;
 }
+
 .header-section {
-background: rgb(114, 227, 214);
-border: 5px solid rgb(78, 69, 69);}
+background: #2C7DA0;
+border: 1px solid rgb(78, 69, 69);
+} 
