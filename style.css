@@ -8,27 +8,30 @@ justify-content: space-around;
 list-style-type: none;
 font-size: 25px;
 color: #A9D6E5;
+margin-top: -10px;
 } 
 
 .header-menu-items nav-links:hover {
 font-size: 200px;
 } 
-
-.header-section {
-/* background: #2C7DA0; */
-/* border: 1px solid rgb(78, 69, 69); */
-
-} 
 li {
     color: #012A4A;
 }
-
 li:hover {
-    font-size: 35px;
-    transition: .4s ease-out; 
+    transform: scale(1.1);
+    cursor: pointer;
+    /* transition: .4s ease-out;  */
 }
-
 .header-section {
     display: row;
-    /* position: absolute; */
+}
+.para-info{
+    text-align: center;
+}
+.topic-info{
+    text-align: center;
+    margin-top: 100px;
+}
+nav{
+    background:rgb(244, 244, 248);
 }
