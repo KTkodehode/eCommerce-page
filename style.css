@@ -18,7 +18,7 @@ li {
     color: #012A4A;
 }
 li:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
     /* transition: .4s ease-out;  */
 }
@@ -33,5 +33,5 @@ li:hover {
     margin-top: 100px;
 }
 nav{
-    background:rgb(244, 244, 248);
+    background:rgb(255, 255, 255);
 }
