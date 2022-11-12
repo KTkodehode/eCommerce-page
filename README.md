@@ -1,1 +1,1 @@
-# eCommerce-page - Mobil Version only
+# eCommerce-page - Mobile Version only
