@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script"></script>
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>Mobile Version</title>
   </head>
   <body>
     <header>
@@ -22,11 +22,24 @@
           <!-- <li class="top-nav-links">FAQ</li>
           <li class="top-nav-links">About</li>
           <li class="top-nav-links">Shop</li> -->
-          <button class="s-box-btn"><img class ="srch-btn" src="/eCommerce-page/305-3058820_14-magnifying-glass-icon-png-black-images-magnifying-removebg-preview.png"></button>
+          <button class="s-box-btn">
+          <img class ="srch-btn" src="/eCommerce-page/305-3058820_14-magnifying-glass-icon-png-black-images-magnifying-removebg-preview.png"></button>
           <input type="search" class="s-box">
-          <li class="top-nav-links">Menu</li>
+
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>         
+            <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+          </div>
       </nav>
     </header>
+
+
+
+
     <main>
       <div class="hero">
         <h1 class="topic-info">Overskrift</h1>
@@ -38,7 +51,9 @@
         </section>
       </div>
     </main>
+    <section>
 
+      
     <section></section>
     <footer></footer>
   </body>
