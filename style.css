@@ -44,10 +44,10 @@ li:hover {
 .topic-info{
     text-align: center;
     margin-top: -500px;
-    color: #f1f1f1;
+    color: #529bfa;
 }
 nav {
-    background:#0B7189;
+    background:#b7d5f8;
     height: 76px;
     margin-top: -20px;
 }
@@ -74,7 +74,7 @@ img{
   }
 .s-box {
     margin-top:25px;
-float: left;
+    float: left;
     margin-left: -10px;
     border-radius: 5px;
     height: 27px;
@@ -110,13 +110,14 @@ float: left;
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2913a7;
+    background-color: rgb(103, 175, 180);
   }
   
   .dropdown {
     position: relative;
     display: inline-block;
     margin: 15px 0px 0px 40px;
+    
   }
   
   .dropdown-content {
