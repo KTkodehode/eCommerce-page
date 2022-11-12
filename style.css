@@ -49,6 +49,7 @@ nav {
 }
 .nav-links {
     float: left;
+    margin-right: -20px;
 }
 img{
     height: 75px;
@@ -59,52 +60,52 @@ img{
     margin-right: 10px;
     float: left;
 }
-.s-box {
-    margin-top:25px;
-    float: right;
-    border-radius: 5px;
-    height: 27px;
-    width: 35vw;
-}
-.srch-btn {
-    height: 90%;
-    width: 130%;
-    /* margin-top: 10%; */
-    margin-left: -15%;
-}
-.s-box-btn {
-    margin-top:27px;
-    float: right;
-    border-radius: 5px;
-    height: 27px;
-    width: 7vw;
-    border: none;
-    background-color: transparent;
-}
-/* Dropdown */
-
 .dropbtn {
     background-color: #3498DB;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
     margin-top: 10px;
   }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
+.s-box {
+    margin-top:25px;
+    float: left;
+    margin-left: -10px;
+    border-radius: 5px;
+    height: 27px;
+    width: 35vw;
+}
+.s-box-btn {
+    margin-top:27px;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    height: 27px;
+    width: 7vw;
+    border: none;
+    background-color: transparent;
+}
+.srch-btn {
+    height: 90%;
+    width: 130%;
+    /* margin-top: 10%; */
+    margin-left: -55%;
+}
+/* Dropdown */
+
   
   .dropdown {
-    position: relative;
-    display: inline-block;
+    /* position: relative; */
+    float:right;
+    margin-top: 5px;
+    /* display: inline-block; */
+    margin-right: 10px;
   }
   
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;
@@ -119,6 +120,3 @@ img{
     display: block;
   }
   
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
