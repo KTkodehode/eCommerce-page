@@ -13,6 +13,9 @@ margin-top: -10px;
 
 
 } */
+.logo {
+    float: left;
+}
 .header-menu-items nav-links:hover {
     font-size: 200px;
     float: right;
@@ -52,4 +55,27 @@ img{
 }
 .top-nav-links {
     margin-top: 20px;
+    margin-right: 10px;
+}
+.s-box {
+    margin-top:27px;
+    float: right;
+    border-radius: 5px;
+    height: 27px;
+    width: 20vw;
+}
+.srch-btn {
+    height: 30px;
+    width: 2vw;
+    margin-top: -3px;
+    margin-left: -70px;
+}
+.s-box-btn {
+    margin-top:27px;
+    float: right;
+    border-radius: 5px;
+    height: 27px;
+    width: 7vw;
+    border: none;
+    background-color: transparent;
 }
